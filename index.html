@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MomentumClone Dashboard</title>
+  </head>
+  <body id="body">
+    <main>
+      <div class="header">
+        <div id="crypto-header">
+          <span class="error" id="error-text"></span>
+          <div class="crypto-info" id="crypto"></div>
+          <div class="crypto-info" id="increase">
+            <img
+              src="./img/growth.png"
+              height="35px"
+              width="35px"
+              alt="increase"
+            />
+            <span id="highPriceElement"></span>
+          </div>
+          <div class="crypto-info" id="decrease">
+            <img
+              src="./img/decrease.png"
+              height="35px"
+              width="35px"
+              alt="increase"
+            />
+            <span id="lowPriceElement"></span>
+          </div>
+        </div>
+        <div id="search-section">
+          <div class="search-btn-bar">
+            <input
+              type="text"
+              placeholder="First choose an option"
+              name="search"
+              autocomplete="off"
+              id="search"
+            />
+            <button class="search-btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <select id="search-select">
+            <option value="">⬇️ Please Select an Option</option>
+            <option value="wallpaper">wallpaper</option>
+            <option value="CryptoCurrency">CryptoCurrency</option>
+          </select>
+        </div>
+        <div id="weather">
+          <p>weather here!!</p>
+        </div>
+      </div>
+      <h1 id="time"></h1>
+      <section class="author">
+        <h4 id="image-author"></h4>
+        <span id="author-insta"></span>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

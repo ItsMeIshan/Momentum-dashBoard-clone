@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "MomentumClone Dashboard",
+    "version": "1.0.0",
+    "description": "Practicing fetch(basics & advanced)",
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
