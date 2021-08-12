@@ -1,2 +1,2 @@
 # Momentum-dashBoard-clone
-- A clone of chrome extention!
+A clone of chrome extention!
